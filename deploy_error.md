@@ -93,7 +93,9 @@ __2단계 : 유저 클릭 이벤트가 발생할때 (새로운 페이지를 요�
     ex. `hompage: "/client"`
 * 만약 배포를 실행파일을 시작시키는 방식으로 했다면 여기까지만 해도 작동이 잘 된다.   
 하지만 build 파일을 serve 하는 방식으로 배포했다면 `index.html` 파일 이후 request URL이 `http://HOST/client/static/js/main.ff4f5da6.js` 로 되기 때문에 build 폴더 안에 생성되는 static 폴더를 client 라는 폴더를 하나 만든 뒤 거기에 넣어줘야 한다. 
+
 <br/>  
+
 __빌드 파일 구조가 이런식으로 되어야 한다는 것이다__   
 ![빌드구조](3.png)   
 나는 .env 에서 `BUILD_PATH=build/client` 환경변수 설정을 하고,   
