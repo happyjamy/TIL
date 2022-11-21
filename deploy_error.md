@@ -110,7 +110,8 @@ package.json 파일 scripts 설정에서 `npm run build` 실행이 될때 index.
 
 ## Reference
 [리액트 구동방식관련 stackoverflow](https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writing-manually?rq=1)   
-[SPA](https://velog.io/@gwanuuoo/SPA%EB%8A%94-%EA%B8%B0%EC%A1%B4-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%99%80-%EC%B0%A8%EC%9D%B4)
+[SPA](https://velog.io/@gwanuuoo/SPA%EB%8A%94-%EA%B8%B0%EC%A1%B4-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%99%80-%EC%B0%A8%EC%9D%B4)   
+[React 환경변수](https://create-react-app.dev/docs/advanced-configuration/#:~:text=for%20more%20details.-,WDS_SOCKET_PORT,-%E2%9C%85%20Used)
 
 
 
