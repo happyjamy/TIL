@@ -170,6 +170,7 @@ spa 옵션은 React의 작동 방식인 single page application 약자로 모든
 이렇게 배포하면 아까와 같이 잘 배포 되어야 한다..   
 근데 pm2 상으로는 제대로 배포가 잘되었는데 우리 메인페이지인 URI로 들어가면 (http://localhost:80/client/user) 흰화면만 뜬다..   
 이때부터 무한 디버깅이 시작된다... <배포 [~절망편~]>...   
+에러 고친 내용은 여기 ➡️ [SPA & 리액트 흰화면 에러](https://github.com/happyjamy/TIL/blob/main/deploy_error.md)
 
 
 - - -
