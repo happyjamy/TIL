@@ -156,14 +156,25 @@ pm2 list
 
 클라이언트 부분은 내가 짠게 아니고 같이 하시는 리액트 개발자님이 짜신거라서 빌드파일을 달라고해서 배포하는 방식으로 진행했다.   
 ~~git clone 해서 실행시키면 되지만 달라하는게 편해서..~~  
-이때는 serve 라이브러리도 같이 깔아서 사용했다.   
+ 
 <br/>
+
 __이름까지 지정해서 빌드폴더 올리기__
 
 ```
 pm2 serve [빌드폴더 경로] [포트번호] --spa --name [이름]
 ```
-spa 옵션은 React의 작동 방식인 single page application 약자이다.
+`pm2 serve`로 static file을 올릴 수 있다.   
+spa 옵션은 React의 작동 방식인 single page application 약자로 모든 쿼리를 `index.html`로 리다이렉트 해준다. (실제 존재 경로이면 해당 리소스 전송)
+
 이렇게 배포하면 아까와 같이 잘 배포 되어야 한다..   
-근데 pm2 상으로는 제대로 배포가 잘되었는데 해당 URI로 들어가면 (http://localhost:80/client) 흰화면만 뜬다..
-이때부터 무한 디버깅이 시작된다... <배포 [~절망편~]>...
+근데 pm2 상으로는 제대로 배포가 잘되었는데 우리 메인페이지인 URI로 들어가면 (http://localhost:80/client/user) 흰화면만 뜬다..   
+이때부터 무한 디버깅이 시작된다... <배포 [~절망편~]>...   
+
+
+- - -
+<br/>
+
+## Reference
+[pm2 관련 글](https://engineering.linecorp.com/ko/blog/pm2-nodejs/)   
+[pm2 docs](https://pm2.keymetrics.io/docs/usage/expose/)
