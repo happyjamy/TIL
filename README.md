@@ -11,3 +11,4 @@ Today I Learned
 * [SPA & 리액트 흰화면 에러](https://github.com/happyjamy/TIL/blob/main/deploy_error.md)
 
 ## Data Structrue
+* [자료구조 관련 참고 자료](https://github.com/happyjamy/TIL/blob/main/data_reference.md)
