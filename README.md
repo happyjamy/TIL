@@ -24,3 +24,7 @@ Today I Learned
 ## OS
 
 - [Ch.1](https://github.com/happyjamy/TIL/blob/main/OS/c_1.md)
+
+## JPA
+
+- [@Transactional+OSIV](https://github.com/happyjamy/TIL/blob/main/JPA/OSIV.md)
