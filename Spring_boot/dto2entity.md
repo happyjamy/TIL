@@ -372,7 +372,7 @@ public class ResDto {
 
 🔺 이런의견도 있습니다
 
-![스크린샷 2023-07-25 오전 5.21.28.png](https://file.notion.so/f/s/bfd9dd35-c7d9-453a-990e-5f327fcb99c0/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-07-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_5.21.28.png?id=f63a9e9b-27b4-4e7a-a9dd-6c3df0aaf211&table=block&spaceId=5db2dd73-ceda-4a45-af28-91717d885111&expirationTimestamp=1690920000000&signature=gud9SJIYhvRQw-JZXnDFUQQrJcW79NvPaDkNicm7LtU&downloadName=%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2023-07-25+%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB+5.21.28.png)
+![스크린샷 2023-07-25 오전 5.21.28.png](https://github.com/happyjamy/TIL/assets/78072370/e2b6d616-66d9-4f61-b5f9-e19102ab8003)
 
 </br>
 </br>
@@ -381,7 +381,7 @@ public class ResDto {
 
 ## 1. Controller 에서 변환
 
-![Untitled](DTO%20%E1%84%8B%E1%85%AA%20Entity%20%E1%84%87%E1%85%A7%E1%86%AB%E1%84%92%E1%85%AA%E1%86%AB%20edabd566ad1642a1abed745d88e2e849/Untitled.png)
+![Untitled](https://github.com/happyjamy/TIL/assets/78072370/5dd175e5-f224-47f5-903d-3be196dca1c7)
 
 - Service 는 Entity 만 받는다.
 
@@ -402,7 +402,7 @@ public class ResDto {
 
 ## 2. Service 에서 변환
 
-![Untitled](DTO%20%E1%84%8B%E1%85%AA%20Entity%20%E1%84%87%E1%85%A7%E1%86%AB%E1%84%92%E1%85%AA%E1%86%AB%20edabd566ad1642a1abed745d88e2e849/Untitled%201.png)
+<img width="748" alt="스크린샷 2023-08-09 오전 1 01 13" src="https://github.com/happyjamy/TIL/assets/78072370/e2fdcce4-c5b4-4bdd-983e-39a580b2f981">
 
 ### 장점
 
@@ -419,7 +419,7 @@ public class ResDto {
 
 ## 3. Service 를 위한 Dto 를 따로 만들자
 
-![Untitled](DTO%20%E1%84%8B%E1%85%AA%20Entity%20%E1%84%87%E1%85%A7%E1%86%AB%E1%84%92%E1%85%AA%E1%86%AB%20edabd566ad1642a1abed745d88e2e849/Untitled%202.png)
+<img width="756" alt="스크린샷 2023-08-09 오전 1 01 49" src="https://github.com/happyjamy/TIL/assets/78072370/6849f294-1c8b-4227-ad5c-bae27e0b5f20">
 
 - 중간에 Mapper 객체를 생성해서 거기서 dto-Entity convert 진행
 
@@ -432,7 +432,7 @@ public class ResDto {
 - 하나의 endpoint 에 무수히 많은 Dto가 생김
   - 관리 복잡도 증가
 
-![Untitled](DTO%20%E1%84%8B%E1%85%AA%20Entity%20%E1%84%87%E1%85%A7%E1%86%AB%E1%84%92%E1%85%AA%E1%86%AB%20edabd566ad1642a1abed745d88e2e849/Untitled%203.png)
+<img width="440" alt="스크린샷 2023-08-09 오전 1 02 22" src="https://github.com/happyjamy/TIL/assets/78072370/11a03064-ad6f-476a-8c08-a7d131edc328">
 
 ---
 
@@ -450,7 +450,7 @@ public class ResDto {
 
 # 진짜 결론
 
-![스크린샷 2023-07-25 오전 5.27.40.png](https://file.notion.so/f/s/20f2b6f4-fcd5-42e2-b7b3-05cf4a474b8d/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-07-25_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_5.27.40.png?id=de8eaa91-d0a7-4a5b-b5de-71540b2a1d23&table=block&spaceId=5db2dd73-ceda-4a45-af28-91717d885111&expirationTimestamp=1690920000000&signature=YBTsXMenf2yUt4MWN5L8vdvTsP4QksYDAqkfp7n-jXM&downloadName=%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2023-07-25+%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB+5.27.40.png)
+<img width="718" alt="스크린샷 2023-08-09 오전 1 02 45" src="https://github.com/happyjamy/TIL/assets/78072370/bfb062c8-5380-41de-9c43-ee57f1f04e55">
 
 </br>
 
