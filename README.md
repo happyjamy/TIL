@@ -25,6 +25,11 @@ Today I Learned
 
 - [Ch.1](https://github.com/happyjamy/TIL/blob/main/OS/c_1.md)
 
+## Spring boot
+
+- [Dto와 Entity 변환](https://github.com/happyjamy/TIL/blob/main/Spring_boot/dto2entity.md)
+
 ## JPA
 
 - [@Transactional+OSIV](https://github.com/happyjamy/TIL/blob/main/JPA/OSIV.md)
+- [N+1](https://github.com/happyjamy/TIL/blob/main/JPA/N+1.md)
