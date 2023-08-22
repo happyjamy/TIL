@@ -38,4 +38,5 @@ Today I Learned
 
 #### MultiThread
 
-- [멀티스레드 개요](https://github.com/happyjamy/TIL/Java_/multiThread/s_1.md)
+- [멀티스레드 개요](https://github.com/happyjamy/TIL/blob/main/Java_/multiThread/s_1.md)
+
