@@ -41,3 +41,5 @@ Today I Learned
 - [멀티스레드 개요](https://github.com/happyjamy/TIL/blob/main/Java_/multiThread/s_1.md)
 
 - [스레드 생성](https://github.com/happyjamy/TIL/blob/main/Java_/multiThread/s_2.md)
+
+- [스레드 조정](https://github.com/happyjamy/TIL/blob/main/Java_/multiThread/s_3.md)
