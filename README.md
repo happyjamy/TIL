@@ -9,11 +9,11 @@ Today I Learned
 
 ## CI/CD
 
-- [Pm2를 사용해 React와 Nest 배포하기 & Nohup로 프록시 서버 배포하기](https://github.com/happyjamy/TIL/blob/main/deploy.md)
+- [Pm2를 사용해 React와 Nest 배포하기 & Nohup로 프록시 서버 배포하기](https://github.com/happyjamy/TIL/blob/main/CICD/deploy.md)
 
 ## Debuging
 
-- [SPA & 리액트 흰화면 에러](https://github.com/happyjamy/TIL/blob/main/deploy_error.md)
+- [SPA & 리액트 흰화면 에러](https://github.com/happyjamy/TIL/blob/main/CICD/deploy_error.md)
 
 ## Algorithm
 
@@ -38,5 +38,6 @@ Today I Learned
 
 #### MultiThread
 
-- [멀티스레드 개요](https://github.com/happyjamy/TIL/Java_/multiThread/s_1.md)
-- [스레드 생성](https://github.com/happyjamy/TIL/Java_/multiThread/s_2.md)
+- [멀티스레드 개요](https://github.com/happyjamy/TIL/blob/main/Java_/multiThread/s_1.md)
+
+- [스레드 생성](https://github.com/happyjamy/TIL/blob/main/Java_/multiThread/s_2.md)
